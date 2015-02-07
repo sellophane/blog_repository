@@ -1,0 +1,102 @@
+body {
+	color:#222222;
+	font-family: Trebuchet MS, Verdana, Arial;
+	font-size: 13px;
+	margin:0px;
+	padding:0px;
+}
+#main2 {
+	float: left;
+	width: 75%;
+}
+h1.page_title {
+	font-size: 30px;
+	font-family: 'Special Elite';
+	color: #303030;
+	text-align: center;
+	margin-top: 30px;
+}
+a:link, a:visited {
+	color:#AFB4AA;
+	text-decoration:none;
+	outline:none;
+}
+.fp-slides .fp-post .title-wrapper {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	color: #000;
+	background: #fff;
+	opacity: 0.6;
+	padding: 10px 20px 10px 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+a:hover {
+	color:#BFC4BA;
+	text-decoration:underline;
+	outline:none;
+}
+a img {
+	border-width:0
+}
+#body-wrapper {
+	margin:0px;
+	padding:0px;
+}
+blockquote {
+	overflow:hidden;
+	padding-left:9px;
+	font-style:italic;
+	color:#666;
+	border-left:3px solid #CADAE7
+}
+/* ----------------------- Wrappers ----------------------- */
+#top-wrapper,
+#middle-wrapper,
+#footer {
+	width: 80%;
+	max-width: 970px;
+	margin:0px auto 0px;
+	padding:0;
+	text-align:$startSide;
+	font:$bodyfont;
+}
+#top-wrapper-outline,
+#footer-wrapper {
+	width:100%;
+	background: #FFF url(http://media.eatsleepedm.com/wp-content/uploads/2012/10/Pappern-14-1024x768.jpg) left top;
+	
+}
+/*background: #FFF url(https://googledrive.com/host/0B9L97ZLuYaXnaWRmSWxKOXRWTEk/images/background.jpg) left top;*/
+#footer-wrapper {
+	overflow: hidden;
+}
+#content-wrapper {
+	background:#FFFFFF;
+}
+#main-wrapper {
+	/*width:95%;*/
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+	word-wrap:break-word;
+	/* fix for long text breaking sidebar float in IE */
+	overflow:hidden;
+	/* fix for long non-text content breaking IE sidebar float */
+}
+#rsidebar-wrapper {
+	width:20%;
+	float:right;
+	margin-left:0px;
+	margin-right:0px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:15px;
+	word-wrap:break-word;
+	/* fix for long text breaking sidebar float in IE */
+	overflow:hidden;
+	/* fix for long non-text content breaking IE sidebar float */
+}

@@ -1,0 +1,59 @@
+#blog-pager  {
+	padding:6px 10px;
+}
+.showpageArea {
+	float:left
+}
+.showpageOf {
+	margin:0 8px 0 0;
+	padding:5px 9px;
+	color:#333333;
+	font:15px Special Elite, Trebuchet MS;
+	background:transparent;
+
+}
+.showpagePoint {
+	color:#fff;
+	font:bold 15px Arial,Verdana;
+	padding:5px 9px;
+	margin:2px;
+	border:0px solid #fff;
+	background:#ABAFA7;
+	text-decoration:none;
+
+}
+.showpageNum a {
+	font:15px Arial,Verdana;
+	padding:5px 9px;
+	margin:0 4px;
+	text-decoration:none;
+	background:transparent;
+    font:15px Special Elite, Trebuchet MS;
+	color:#333333;
+
+}
+.showpageNum a:hover {
+	color:#333333;
+	background:#e5e5e5;
+
+}
+.showpage a {
+	font:15px Arial,Verdana;
+	padding:5px 9px;
+	margin:0 4px;
+	text-decoration:none;
+	background:transparent;
+	color:#333333;
+
+}
+.showpage a:hover {
+	color:#333333;
+	background:#e5e5e5;
+
+}
+.showpageArea {
+	margin:10px 0;
+	font:15px Arial,Verdana;
+	color:#333333;
+
+}

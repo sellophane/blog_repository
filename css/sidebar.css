@@ -1,0 +1,62 @@
+.topsearch {
+	margin-bottom: 30px;
+}
+#Followers1 a {
+	color: #999;
+}
+#rsidebar-wrapper h2 {
+	font-family: 'Special Elite', Trebuchet MS, sans-serif;
+	font-size: 17px;
+	font-weight: normal;
+}
+#other_pages_logos {
+	margin-top: 20px; 
+}
+#BlogArchive1_ArchiveMenu,
+#search {
+	margin-top:0;
+	margin-bottom:10px;
+	width: 100%;
+	border:1px solid #C4C4C4;
+	background:#FFF;
+	height:30px;
+	padding:0;
+	text-align:left;
+	overflow:hidden
+}
+#BlogArchive1_ArchiveMenu,
+#search input {
+	color: #6E6969;	
+	font-family: Trebuchet MS;
+}
+#search #s {
+	background:none;
+	color:#6E6969;
+	border:0;
+	padding:4px;
+	margin:3px 0 0 2px;
+	float:left
+}
+#search .search-image {
+	border:0;
+	vertical-align:top;
+	float:right;
+	margin:6px 4px 0 2px
+}
+#search-wrap {
+	width:300px;
+	padding:15px 0
+}
+
+.hard_menu {
+	margin-bottom: 25px;
+}
+.hard_menu a {
+	display: block;
+	border: 1px solid #C4C4C4;
+	margin-bottom: 8px;
+	padding: 10px 10px;
+	font-family: 'Special Elite';
+	color: #000;
+	font-size: 15px;
+}

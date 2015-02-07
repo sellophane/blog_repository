@@ -1,0 +1,50 @@
+#header-wrapper {
+	width: 100%;
+	margin:0px auto 0px;
+	overflow:hidden;
+}
+#header-logo {
+	margin: 20px 0;
+	float: left;
+	a {
+		height: 350px;
+		img {
+			display: block;
+			padding-left: 0px;
+			padding-top: 5px;
+		}
+	}
+}
+#blog-logo {
+	height: 205px;
+	width: 220px;
+}
+#header-left {
+	height: 205px;
+	float: right;
+	margin: 20px 0;
+}
+#social-media {
+	margin-top: 5px;
+	float: right
+}
+#social-media a {
+	margin-right: 10px
+}
+#social-media a img {
+	height: 25px;
+	margin-top: 10px
+}
+#quote-winnie {
+	font-family: 'Special Elite';
+	font-size: 14px;
+	margin-top: 70px;
+	line-height: 1.2em
+}
+#subtitle {
+	font-family: 'Special Elite';
+	font-size: 24px;
+	margin-top: 100px;
+	margin-right: 50px;
+	line-height: 1.2em
+}

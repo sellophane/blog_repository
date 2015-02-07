@@ -1,0 +1,34 @@
+<b:widget id='HTML1' locked='false' title='Test' type='HTML'>
+  <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2 class='title'><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+    <!-- Featured Content Slider Started -->
+      <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+        <b:if cond='data:blog.pageType != &quot;item&quot;'>
+          <div class='featuredposts clearfix'>
+            <b:loop values='data:posts' var='post'>
+              <div class='fp-slides'>
+                <div class='fp-post'>
+                  <div class='fp-thumbnail'>
+                  </div>
+                  <h3 class='fp-title'>
+                      <a href='featured-post-1-url-here'/>
+                  </h3>
+                  <p>test</p>
+                </div>
+              </div>
+            </b:loop>
+            <div class='fp-nav clearfix'>
+              <span class='fp-pager'/> <a class='fp-next' href='#fp-next'/>
+              <a class='fp-prev' href='#fp-prev'/>
+            </div>
+          </div>
+        </b:if>
+      </b:if>
+      <!-- Featured Content Slider End -->
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+</b:widget>
